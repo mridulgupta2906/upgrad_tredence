@@ -17,6 +17,7 @@ input_path = "dbfs:/mnt/upgradtrendenceadls/delta/files/"
 # COMMAND ----------
 
 from pyspark.sql.functions import *
+from pyspark.sql.window import *
 
 # COMMAND ----------
 
